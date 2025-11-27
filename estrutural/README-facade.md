@@ -42,6 +42,7 @@ No nosso contexto, os papéis do padrão são desempenhados pelas seguintes clas
 #### A Definição Clássica
 Na literatura (como no Refactoring Guru), o Facade é frequentemente exemplificado como um wrapper para **bibliotecas de terceiros** ou códigos legados complexos (ex: um conversor de vídeo `ffmpeg`).
 
+
 #### A Nossa Abordagem (Service Layer)
 No desenvolvimento Web moderno com Django, adaptamos o Facade para atuar como uma **Camada de Serviço**.
 * **Objetivo:** Garantir o princípio de **"Thin Views"** (Views Magras).
